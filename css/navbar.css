@@ -3,7 +3,7 @@
   background: transparent;
   padding: 0;
   border: 0;
-
+  touch-action: none;
 
   /* outline: 0; */
   cursor: pointer;
