@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Sidebar</title>
+
+  <!-- fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Mochiy+Pop+P+One&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <div id="sidebar" class="sidebar show">
+      <header class="header">
+        <div class="navbar">
+          <button id="navbar-icon" class="navbar-icon">
+            <i class="icon-menu"></i>
+          </button>
+        </div>
+        <a href="./" class="link" aria-current="page" >
+            <div class="logo">
+              <img class="logo-img" src="./img/Logo.png" height="24" width="24" alt="Logo Leonidas Esteban"/>
+              <span class="logo-txt" >No te rindas</span>
+            </div>
+        </a>
+
+      </header>
+    <nav class="menu" aria-label="principal">
+      <ul class="menu-list">
+        <li class="menuItem is-active"><a class="link" href="#"><i class="icon-archive" aria-hidden="true"></i><span>Recibidos</span></a></li>
+        <li class="menuItem"><a class="link" href="#"><i class="icon-star" aria-hidden="true"></i><span>Destacados</span></a></li>
+        <li class="menuItem"><a class="link" href="#"><i class="icon-clock" aria-hidden="true"></i><span>Pospuestos</span></a></li>
+        <li class="menuItem"><a class="link" href="#"><i class="icon-send" aria-hidden="true"></i><span>Enviados</span></a></li>
+      </ul>
+      <h3 class="menu-subtitle">Categorías</h3>
+      <ul class="menu-list">
+        <li class="menuItem"><a class="link" href="#"><i class="icon-email" aria-hidden="true"></i><span>Todos</span></a>
+        </li>
+        <li class="menuItem"><a class="link" href="#"><i class="icon-trash" aria-hidden="true"></i><span>Papelera</span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <section class="hero">
+    <h1 class="textBackground">¡No te rindas!</h1>
+  </section>
+
+
+  <script src="./js/sidebar.js"></script>
+</body>
+</html>
