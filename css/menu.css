@@ -1,0 +1,23 @@
+@import './menu-items.css';
+
+.menu{
+
+}
+
+.menu-list{
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  /* padding-inline-start: 1.25rem; */
+}
+
+.menu-subtitle{
+  font-weight: bold;
+  font-size: .625rem;
+  text-transform: uppercase;
+  padding-inline-start: 1.25rem;
+}
+
+.sidebar.hidden .menu-subtitle{
+  display: none;
+}

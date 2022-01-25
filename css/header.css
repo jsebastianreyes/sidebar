@@ -1,0 +1,18 @@
+@import './logo.css';
+@import './navbar.css';
+
+
+.header{
+  display: flex;
+  align-items: center;
+  padding-inline-start: 1.25rem;
+  padding-block: .5rem;
+  box-sizing: border-box;
+  block-size: 4rem;
+}
+
+
+.sidebar.hidden .header{
+  padding-inline-start: 0;
+
+}

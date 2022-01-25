@@ -1,0 +1,36 @@
+[class^="icon-"], [class*=" icon-"] {
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+  margin: .75rem;
+  /* border: 1px solid red;
+  box-sizing: border-box; */
+}
+
+
+.icon-menu{
+  background-image: url(../icons/menu.svg);
+}
+.icon-archive{
+  background-image: url(../icons/archive.svg);
+}
+.icon-email{
+  background-image: url(../icons/mail.svg);
+}
+.icon-star{
+  background-image: url(../icons/star.svg);
+}
+.icon-clock{
+  background-image: url(../icons/clock.svg);
+}
+.icon-send{
+  background-image: url(../icons/send.svg);
+}
+.icon-trash{
+  background-image: url(../icons/trash.svg);
+}
+.icon-mail{
+  background-image: url(../icons/send.svg);
+}
