@@ -1,9 +1,0 @@
-@import './textBackground.css';
-
-.hero{
-  block-size: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
